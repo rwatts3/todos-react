@@ -1,0 +1,44 @@
+/* Imports for global scope */
+
+ECMAScript = Package.ecmascript.ECMAScript;
+check = Package.check.check;
+Match = Package.check.Match;
+Tracker = Package.tracker.Tracker;
+Deps = Package.tracker.Deps;
+_ = Package.underscore._;
+ReactMeteorData = Package['react-meteor-data'].ReactMeteorData;
+MongoInternals = Package.mongo.MongoInternals;
+Mongo = Package.mongo.Mongo;
+SimpleSchema = Package['aldeed:simple-schema'].SimpleSchema;
+MongoObject = Package['aldeed:simple-schema'].MongoObject;
+ValidatedMethod = Package['mdg:validated-method'].ValidatedMethod;
+ValidationError = Package['mdg:validation-error'].ValidationError;
+TAPi18next = Package['tap:i18n'].TAPi18next;
+TAPi18n = Package['tap:i18n'].TAPi18n;
+Hammer = Package['chriswessels:hammer'].Hammer;
+DDPRateLimiter = Package['ddp-rate-limiter'].DDPRateLimiter;
+SimpleRest = Package['simple:rest'].SimpleRest;
+Factory = Package.factory.Factory;
+PublicationCollector = Package['publication-collector'].PublicationCollector;
+Electrify = Package['arboleya:electrify'].Electrify;
+Meteor = Package.meteor.Meteor;
+global = Package.meteor.global;
+meteorEnv = Package.meteor.meteorEnv;
+WebApp = Package.webapp.WebApp;
+main = Package.webapp.main;
+WebAppInternals = Package.webapp.WebAppInternals;
+DDP = Package['ddp-client'].DDP;
+DDPServer = Package['ddp-server'].DDPServer;
+meteorInstall = Package.modules.meteorInstall;
+Buffer = Package.modules.Buffer;
+process = Package.modules.process;
+Symbol = Package['ecmascript-runtime'].Symbol;
+Map = Package['ecmascript-runtime'].Map;
+Set = Package['ecmascript-runtime'].Set;
+meteorBabelHelpers = Package['babel-runtime'].meteorBabelHelpers;
+Promise = Package.promise.Promise;
+Collection2 = Package['aldeed:collection2-core'].Collection2;
+Accounts = Package['accounts-base'].Accounts;
+LaunchScreen = Package['launch-screen'].LaunchScreen;
+Autoupdate = Package.autoupdate.Autoupdate;
+
