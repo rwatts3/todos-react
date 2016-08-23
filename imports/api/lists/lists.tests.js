@@ -26,7 +26,7 @@ if (Meteor.isServer) {
     describe('publications', () => {
       const userId = Random.id();
 
-      // TODO -- make a `listWithTodos` factory
+      // TODO:0 -- make a `listWithTodos` factory
       const createList = (props = {}) => {
         const list = Factory.create('list', props);
         _.times(3, () => {

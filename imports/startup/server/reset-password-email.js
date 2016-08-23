@@ -23,7 +23,7 @@ The Meteor Todos team
   },
 //   html(user, url) {
 //     return `
-//       XXX Generating HTML emails that work across different email clients is a very complicated
+//       XXX:0 Generating HTML emails that work across different email clients is a very complicated
 //       business that we're not going to solve in this particular example app.
 //
 //       A good starting point for making an HTML email could be this responsive email boilerplate:

@@ -68,7 +68,7 @@ Todos.publicFields = {
   checked: 1,
 };
 
-// TODO This factory has a name - do we have a code style for this?
+// TODO:30 This factory has a name - do we have a code style for this?
 //   - usually I've used the singular, sometimes you have more than one though, like
 //   'todo', 'emptyTodo', 'checkedTodo'
 Factory.define('todo', Todos, {

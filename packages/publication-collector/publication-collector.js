@@ -24,7 +24,7 @@ _.extend(PublicationCollector.prototype, {
     const handler = Meteor.server.publish_handlers[name];
     const result = handler.call(this, ...args);
 
-    // TODO -- we should check that result has _publishCursor? What does _runHandler do?
+    // TODO:20 -- we should check that result has _publishCursor? What does _runHandler do?
     if (result) {
       // array-ize
       [].concat(result).forEach(cur => cur._publishCursor(this));

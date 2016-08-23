@@ -311,7 +311,7 @@ Tinytest.add('Factory - Create - Relationship - return a Factory from deep funct
   }
 );
 
-// TODO -- not yet implemented
+// TODO:10 -- not yet implemented
 // Tinytest.add('Factory - Build - Sequence', function(test) {
 //   Factory.define('author', Authors, {
 //     name: 'John Smith',

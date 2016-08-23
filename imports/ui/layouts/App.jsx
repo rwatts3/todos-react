@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import { Meteor } from 'meteor/meteor';
-import { Session } from 'meteor/session'; // XXX: SESSION
+import { Session } from 'meteor/session'; // XXX:10 SESSION
 import { Lists } from '../../api/lists/lists.js';
 import UserMenu from '../components/UserMenu.jsx';
 import ListList from '../components/ListList.jsx';
@@ -75,7 +75,7 @@ export default class App extends React.Component {
 
     return (
       <div id="container" className={menuOpen ? 'menu-open' : ''}>
-        <section id="menu">
+		<section id="menu">
           <UserMenu user={user} logout={this.logout}/>
           <ListList lists={lists}/>
         </section>

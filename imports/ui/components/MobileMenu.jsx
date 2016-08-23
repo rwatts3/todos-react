@@ -1,5 +1,5 @@
 import React from 'react';
-// XXX: no session!
+// XXX:30 no session!
 import { Session } from 'meteor/session';
 
 function toggleMenu() {

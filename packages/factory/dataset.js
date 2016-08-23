@@ -51,7 +51,7 @@ _.extend(Dataset.prototype, {
   },
 
   get(collectionName, id) {
-    // XXX: this could be a lot more efficient if we used a collection from the beginning
+    // XXX:70 this could be a lot more efficient if we used a collection from the beginning
     const doc = _.find(this.documents[collectionName], function(d) { return d._id === id; });
     const transform = this.collections[collectionName]._transform;
     if (transform) {

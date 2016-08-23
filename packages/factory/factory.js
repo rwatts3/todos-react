@@ -28,7 +28,7 @@ Factory.prototype.build = function(dataset, props, opts) {
         const relation = value.build(dataset);
         setProp(subDoc, prop, relation._id);
       }
-    // TODO: what is the correct check here?
+    // TODO:50 what is the correct check here?
     } else if (_.isObject(value) && !_.isDate(value) && !_.isArray(value)) {
       subDoc[prop] = subDoc[prop] || {};
       walk(subDoc[prop], value);  // eslint-disable-line

@@ -9,13 +9,16 @@
   },
   "dependencies": {
     "autoprefixer": "^6.3.1",
+    "bcrypt": "^0.8.7",
     "classnames": "^2.2.3",
     "faker": "^3.0.1",
+    "material-ui": "^0.15.4",
     "react": "^15.0.0",
     "react-addons-css-transition-group": "^15.0.0",
     "react-addons-pure-render-mixin": "^15.0.0",
     "react-addons-test-utils": "^15.0.0",
     "react-dom": "^15.0.0",
+    "react-foundation": "^0.6.8",
     "react-router": "^2.0.0"
   },
   "devDependencies": {

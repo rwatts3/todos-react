@@ -56,7 +56,7 @@ export const makePublic = new ValidatedMethod({
         'You don\'t have permission to edit this list.');
     }
 
-    // XXX the security check above is not atomic, so in theory a race condition could
+    // XXX:40 the security check above is not atomic, so in theory a race condition could
     // result in exposing private data
     Lists.update(listId, {
       $unset: { userId: true },
@@ -78,7 +78,7 @@ export const updateName = new ValidatedMethod({
         'You don\'t have permission to edit this list.');
     }
 
-    // XXX the security check above is not atomic, so in theory a race condition could
+    // XXX:50 the security check above is not atomic, so in theory a race condition could
     // result in exposing private data
 
     Lists.update(listId, {
@@ -98,7 +98,7 @@ export const remove = new ValidatedMethod({
         'You don\'t have permission to remove this list.');
     }
 
-    // XXX the security check above is not atomic, so in theory a race condition could
+    // XXX:60 the security check above is not atomic, so in theory a race condition could
     // result in exposing private data
 
     if (list.isLastPublicList()) {

@@ -45,7 +45,7 @@ if (Meteor.isServer) {
 
         _.times(3, () => {
           Factory.create('todo', { listId: publicList._id });
-          // TODO get rid of userId, https://github.com/meteor/todos/pull/49
+          // TODO:40 get rid of userId, https://github.com/meteor/todos/pull/49
           Factory.create('todo', { listId: privateList._id, userId });
         });
       });
